@@ -115,3 +115,7 @@ a {
 .weather-forecast-temperature {
   font-size: 13px;
 }
+
+small .footer {
+  margin-top: 200px;
+}
