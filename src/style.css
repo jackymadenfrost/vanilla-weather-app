@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   background: linear-gradient(180deg, #675aff 0%, #b9d5ff 100%);
   min-height: 100vh;
 }
@@ -7,7 +7,7 @@ body {
 h1 {
   color: #ffffff;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: bold;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -48,6 +48,7 @@ li:first-letter {
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.25);
   border-radius: 50px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 .overview {
@@ -103,6 +104,13 @@ a {
   text-align: center;
   color: #000;
 }
+
+.forecast-day-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 30px 0 30px 0;
+  margin: 0 2px 0 2px;
+}
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
@@ -114,8 +122,4 @@ a {
 
 .weather-forecast-temperature {
   font-size: 13px;
-}
-
-small .footer {
-  margin-top: 200px;
 }
